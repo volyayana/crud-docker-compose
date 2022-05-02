@@ -83,6 +83,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netol_db',
         'HOST': 'localhost',
+        'LOGIN': 'netol_user',
+        'PASSWORD': 'netol_password',
     }
 }
 
